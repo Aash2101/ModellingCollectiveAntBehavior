@@ -1,5 +1,6 @@
-# ModellingCollectiveAntBehavior
-# Ant Behavior Simulation: From ODE to Agent-Based Model
+# Modelling Collective Ant Behavior
+
+## Ant Behavior Simulation: From ODE to Agent-Based Model
 
 ## Introduction
 
@@ -34,21 +35,7 @@ The model was implemented in Python using the following libraries:
 
 ### Files and Directories
 - `main.py`: The main script to run the simulation.
-- `ant.py`: Contains the `Ant` class defining the behavior and state transitions of ants.
-- `environment.py`: Defines the grid environment and contains functions for initializing and updating the state of the simulation.
-- `requirements.txt`: Lists the required Python libraries.
 - `README.md`: This documentation file.
-
-### Running the Simulation
-
-1. **Install the required libraries:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-2. **Run the main script:**
-    ```bash
-    python main.py
-    ```
 
 ### Visualization
 
@@ -63,14 +50,6 @@ This project laid the foundation for my ongoing research on the spread of infect
 - **Integrate additional environmental factors:** Include more complex environmental variables to make the model more realistic.
 - **Expand to other species:** Adapt the model to study the behavior of other social insects or animals.
 - **Apply to epidemiology:** Extend the model to simulate disease spread in human populations.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Contact
 
